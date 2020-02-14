@@ -4,7 +4,7 @@ node {
   }
 
  def project_terraform="Terraform"
- dir(project_terra)form {
+ dir(project_terraform)form {
    stage('Instance Creation on AWS'){
    sh label: 'terraform', script: '/bin/terraform  init'
    sh label: 'terraform', script: '/bin/terraform  apply -input=false -auto-approve'
