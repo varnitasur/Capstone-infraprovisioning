@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "new key"
+  default = "mykey"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/newkey.pem"
+  default = "/root/.ssh/aditikey.pem"
 }
 
 variable "us-east-zones" {
-  default = ["us-east-1a", "us-east-1b"]
+  default = ["us-east-2"]
 }
 
 variable "sg-id" {
-  default = "sg-04fdc62e186bdae8e"
+  default = "sg-04f14b8ba13c81733"
 }
