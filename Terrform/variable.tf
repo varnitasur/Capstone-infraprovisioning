@@ -3,7 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/aditikey.pem"
+  default = "/root/.ssh/mykey.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-04f14b8ba13c81733"
+  default = "sg-0cc648f92e2cacb86"
 }
